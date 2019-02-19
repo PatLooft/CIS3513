@@ -11,8 +11,36 @@
 import Foundation
 
 // create Bagels object
-let bagels =  Bagels()
+let bagel: Bagels?;
+bagel = Bagels();
 
 // call the method that plays the game
-bagels.playGame()
+bagel.playGame();
 
+import Foundation
+
+public class Bagels {
+    var number: Int?;
+    var ones: Int?;
+    var tens: Int?;
+    var hundos: Int?;
+    // DO NOT MODIFY THE METHOD DECLARATIONS IN ANY WAY
+    init(){
+        //generateSecretNumber();
+        ones = 1;
+        tens = 10;
+        hundos = 100;
+    }
+    
+
+    /*init(yuh: Int){
+        numbers = yuh;
+    }*/
+    
+    // the ONLY public method
+    public func playGame(){
+        // read user input
+        
+        
+    }
+}
